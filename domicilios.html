@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Bourbon Bar y Coctelería | Moniquirá</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="Bourbon Bar y Coctelería: luces, musica y cero excusas. Un espacio de bebidas, sabores y experiencias en Moniquirá, Boyacá." name="description">
+
+    <!-- Favicon -->
+    <link href="img/Logo-1.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Imperial+Script&family=Kedebideri:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
+    </div>
+    <!-- Spinner End -->
+
+    
+    <!-- Navbar Start -->
+    <div class="container-fluid bg-white sticky-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light py-2 py-lg-0">
+                <a href="domicilios.html" class="navbar-brand">
+                    <img class="img-fluid" src="img/Logo-1.png" alt="Logo">
+                </a>
+                <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto">
+                        <a href="inicio.html" class="nav-item nav-link">Inicio</a>
+                        <a href="nosotros.html" class="nav-item nav-link">Nosotros</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Tienda</a>
+                            <div class="dropdown-menu bg-light rounded-0 m-0">
+                                <a href="productos.html" class="dropdown-item">Productos</a>
+                                <a href="domicilios.html" class="dropdown-item active">Domicilios</a>
+                            </div>
+                        </div>
+                         <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Cuenta</a>
+                            <div class="dropdown-menu bg-light rounded-0 m-0">
+                                <a href="iniciar_sesión.html" class="dropdown-item">Iniciar Sesión</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border-start ps-4 d-none d-lg-block">
+                        <button type="button" class="btn btn-sm p-0"><i class="fa fa-search"></i></button>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container text-center py-5">
+            <h1 class="display-2 text-dark mb-4 animated slideInDown">Domicilios</h1>
+            </nav>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+
+    <!-- Domicilios Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="section-title text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <p class="fs-5 fw-medium fst-italic text-primary">Domicilios</p>
+                <h1 class="display-6">Haz Tu Pedido</h1>
+            </div>
+
+            <!-- Aviso zona de cobertura -->
+            <div class="row justify-content-center mb-5 wow fadeInUp" data-wow-delay="0.2s">
+                <div class="col-lg-9">
+                    <div class="alert-zona-domicilio text-center">
+                        <i class="fa fa-map-marker-alt me-2"></i>
+                        Por ahora solo hacemos domicilios dentro de <strong>Moniquirá, Boyacá</strong>, ya que es donde está nuestra sede y trabajamos con productos que no se pueden enviar a larga distancia.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Selección de productos -->
+            <div class="row justify-content-center wow fadeInUp" data-wow-delay="0.3s">
+                <div class="col-lg-9">
+                    <h4 class="text-center mb-4">Selecciona los productos que quieres pedir</h4>
+                    <p class="text-center text-body mb-5">Puedes marcar uno o varios productos.
+                    <!-- Categoría: Nuestra Especialidad -->
+                    <h5 class="text-primary mb-3"><i class="fa fa-star me-2"></i>Nuestra Especialidad</h5>
+                    <div class="row g-3 mb-4">
+                        <div class="col-12">
+                            <div class="form-check product-check product-check-especial">
+                                <input class="form-check-input" type="checkbox" value="Bourbon Especial (coctel de la casa)" id="prodEsp1">
+                                <label class="form-check-label" for="prodEsp1">
+                                    <span class="d-block fw-bold">Tropical Bourbon</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Categoría: Cócteles Con Alcohol -->
+                    <h5 class="text-primary mb-3">Cócteles Con Alcohol</h5>
+                    <div class="row g-3 mb-4">
+                        <div class="col-md-6">
+                            <div class="form-check product-check">
+                                <input class="form-check-input" type="checkbox" value="Mojito Clásico" id="prodAlc1">
+                                <label class="form-check-label" for="prodAlc1">Mojito Clásico</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-check product-check">
+                                <input class="form-check-input" type="checkbox" value="Mojito Frutos Rojos" id="prodAlc2">
+                                <label class="form-check-label" for="prodAlc2">Mojito Frutos Rojos</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-check product-check">
+                                <input class="form-check-input" type="checkbox" value="Piña Colada" id="prodAlc3">
+                                <label class="form-check-label" for="prodAlc3">Piña Colada</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-check product-check">
+                                <input class="form-check-input" type="checkbox" value="Margarita" id="prodAlc4">
+                                <label class="form-check-label" for="prodAlc4">Margarita</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-check product-check">
+                                <input class="form-check-input" type="checkbox" value="Cube Libre" id="prodAlc5">
+                                <label class="form-check-label" for="prodAlc5">Cube Libre</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-check product-check">
+                                <input class="form-check-input" type="checkbox" value="Daiquiri de Fresa" id="prodAlc6">
+                                <label class="form-check-label" for="prodAlc6">Daiquiri de Fresa</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Categoría: Cócteles Sin Alcohol -->
+                    <h5 class="text-primary mb-3">Cócteles Sin Alcohol</h5>
+                    <div class="row g-3 mb-4">
+                        <div class="col-md-6">
+                            <div class="form-check product-check">
+                                <input class="form-check-input" type="checkbox" value="Mojito Sin Alcohol" id="prodSin1">
+                                <label class="form-check-label" for="prodSin1">Mojito Sin Alcohol</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-check product-check">
+                                <input class="form-check-input" type="checkbox" value="Mojito Frutos Rojos 0.0" id="prodSin2">
+                                <label class="form-check-label" for="prodSin2">Mojito Frutos Rojos 0.0</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-check product-check">
+                                <input class="form-check-input" type="checkbox" value="Piña Colada 0.0" id="prodSin3">
+                                <label class="form-check-label" for="prodSin3">Piña Colada 0.0</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-check product-check">
+                                <input class="form-check-input" type="checkbox" value="Fresa Tropical" id="prodSin4">
+                                <label class="form-check-label" for="prodSin4">Fresa Tropica</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-check product-check">
+                                <input class="form-check-input" type="checkbox" value="Blue Tropica" id="prodSin5">
+                                <label class="form-check-label" for="prodSin5">Blue Tropical</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Categoría: Bebidas -->
+                    <h5 class="text-primary mb-3">Bebidas</h5>
+                    <div class="row g-3 mb-4">
+                        <div class="col-md-6">
+                            <div class="form-check product-check">
+                                <input class="form-check-input" type="checkbox" value="Gaseosa 350mL" id="prodBeb1">
+                                <label class="form-check-label" for="prodBeb1">Gaseosa 350m</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-check product-check">
+                                <input class="form-check-input" type="checkbox" value="Gaseosa 1.5mL" id="prodBeb2">
+                                <label class="form-check-label" for="prodBeb2">Gaseosa 1.5mL</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-check product-check">
+                                <input class="form-check-input" type="checkbox" value="Agua" id="prodBeb3">
+                                <label class="form-check-label" for="prodBeb3">Agua</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-check product-check">
+                                <input class="form-check-input" type="checkbox" value="Agua con Gas" id="prodBeb4">
+                                <label class="form-check-label" for="prodBeb4">Agua con Gas</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-check product-check">
+                                <input class="form-check-input" type="checkbox" value="Jugo Natural" id="prodBeb5">
+                                <label class="form-check-label" for="prodBeb5">Jugo Natural</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-check product-check">
+                                <input class="form-check-input" type="checkbox" value="Limonada" id="prodBeb6">
+                                <label class="form-check-label" for="prodBeb6">Limonada</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-check product-check">
+                                <input class="form-check-input" type="checkbox" value="Bebida Energetica" id="prodBeb7">
+                                <label class="form-check-label" for="prodBeb7">Bebida Energetica</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Categoría: Pasabocas -->
+                    <h5 class="text-primary mb-3">Pasabocas</h5>
+                    <div class="row g-3 mb-4">
+                        <div class="col-md-6">
+                            <div class="form-check product-check">
+                                <input class="form-check-input" type="checkbox" value="Mini Empanadas" id="prodPas1">
+                                <label class="form-check-label" for="prodPas1">Mini Empanadas</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-check product-check">
+                                <input class="form-check-input" type="checkbox" value="Nachos Bourbon" id="prodPas2">
+                                <label class="form-check-label" for="prodPas2">Nachos Bourbon</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-check product-check">
+                                <input class="form-check-input" type="checkbox" value="Deditos de Queso" id="prodPas3">
+                                <label class="form-check-label" for="prodPas3">Deditos de Queso</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-check product-check">
+                                <input class="form-check-input" type="checkbox" value="Combo Bourbon" id="prodPas4">
+                                <label class="form-check-label" for="prodPas4">Combo Bourbon
+                                    
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-check product-check">
+                                <input class="form-check-input" type="checkbox" value="Golosinas" id="prodPas5">
+                                <label class="form-check-label" for="prodPas5">Golosinas</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Datos de entrega -->
+                    <h5 class="text-primary mb-3 mt-4">Tus Datos</h5>
+                    <div class="row g-3 mb-4">
+                        <div class="col-md-6">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="nombreCliente" placeholder="Tu Nombre">
+                                <label for="nombreCliente">Tu Nombre</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="direccionCliente" placeholder="Dirección en Moniquirá">
+                                <label for="direccionCliente">Dirección en Moniquirá</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="text-center mt-5">
+                        <button type="button" id="btnEnviarPedido" class="btn btn-primary rounded-pill py-3 px-5">
+                            <i class="fab fa-whatsapp me-2"></i>Enviar Pedido por WhatsApp
+                        </button>
+                        <p class="text-body mt-3 small">Al hacer clic se abrirá WhatsApp con tu pedido ya escrito, listo para enviar.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Domicilios End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-primary mb-4">Contactos</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt text-primary me-3"></i>Barrio Floresta, Moniquirá, Boyacá</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt text-primary me-3"></i>+012 345 67890</p>
+                    <p class="mb-2"><i class="fa fa-envelope text-primary me-3"></i>cocteleriabourbonbar@gmail.com</p>
+                    <div class="d-flex pt-3">
+                        <a class="btn btn-square btn-primary rounded-circle me-2" href="https://www.instagram.com/bar.bourbon" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-square btn-primary rounded-circle me-2" href="https://www.tiktok.com/@bourbon.barcoc" target="_blank" rel="noopener"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <a class="btn btn-link" href="">Términos Y Condiciones</a>
+                    <a class="btn btn-link" href="">Ayuda</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-primary mb-4">Nuestros Horarios</h4>
+                    <p class="mb-1">Lunes - Viernes</p>
+                    <h6 class="text-light">5:30 pm - 1:30 am <p>(Menores de edad hasta las 8:30 pm)</p></h6>
+                    <p class="mb-1">Sábados</p>
+                    <h6 class="text-light">5:30 pm - 2:30 am <p>(Menores de edad hasta las 8:30 pm)</p></h6>
+                    <p class="mb-1">Domingos</p>
+                    <h6 class="text-light">5:30 pm - 2:30 am <p>(Menores de edad hasta las 8:30 pm)</p></h6>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <p>Gracias por confiar en Bourbon y ser parte de nuestro emprendimiento, los queremos montónes:3</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; <a class="fw-medium" href="#">Bourbon Bar Y Coctelería</a>, Todos los derechos reservados.
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                    By <a class="fw-medium" href="https://htmlcodex.com">HTML Codex</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+    <!-- Pedido por WhatsApp -->
+    <script>
+        const WHATSAPP_NUMBER = "573178790874";
+
+        document.getElementById('btnEnviarPedido').addEventListener('click', function () {
+            const seleccionados = document.querySelectorAll('.product-check input[type="checkbox"]:checked');
+            const nombre = document.getElementById('nombreCliente').value.trim();
+            const direccion = document.getElementById('direccionCliente').value.trim();
+
+            if (seleccionados.length === 0) {
+                alert('Por favor selecciona al menos un producto antes de enviar tu pedido.');
+                return;
+            }
+
+            let mensaje = 'Holaa, quiero hacer un domicilio:%0A%0A';
+
+            seleccionados.forEach(function (item) {
+                mensaje += '- ' + item.value + '%0A';
+            });
+
+            mensaje += '%0A';
+            mensaje += 'A nombre de ' + (nombre || '[sin especificar]') + '%0A';
+            mensaje += 'En ' + (direccion || '[sin especificar]') + '%0A';
+            mensaje += '%0APor favor confírmame la disponibilidad y el total. ¡Gracias! ♡♡';
+
+            const url = 'https://wa.me/' + WHATSAPP_NUMBER + '?text=' + mensaje;
+            window.open(url, '_blank');
+        });
+    </script>
+</body>
+
+</html>
