@@ -352,14 +352,16 @@
 
     <!-- Template Javascript -->
     <script>
-        const videoModal = document.getElementById('videoModal');
-        const video = document.getElementById('video');
+    (function () {
+        var modal = document.getElementById('videoModal');
+        var vid = document.getElementById('video');
 
-        videoModal.addEventListener('shown.bs.modal', () => video.play());
-        videoModal.addEventListener('hidden.bs.modal', () => {
-            video.pause();
-            video.currentTime = 0;
+        modal.addEventListener('shown.bs.modal', function () { vid.play(); });
+        modal.addEventListener('hidden.bs.modal', function () {
+            vid.pause();
+            vid.currentTime = 0;
         });
-    </script></body>
+    })();
+    </script>
 
 </html>
